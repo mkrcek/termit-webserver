@@ -1,0 +1,143 @@
+<!-- //verze 2018-20-3 -->
+
+
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>DM 1.2 </title>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- Google Fonts -->
+  <!-- pokud by byl problem stahovat online - tak zakomentovat -->
+
+  <!-- <link href='https://fonts.googleapis.com/css?family=Raleway:500italic,600italic,600,700,700italic,300italic,300,400,400italic,800,900' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,600italic,700,900' rel='stylesheet' type='text/css'> -->
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+
+  <!-- Animate CSS -->
+  <!-- nepoužívám zatím -->
+  <!-- <link rel="stylesheet" type="text/css" href="css/animate.css"> -->
+
+
+  <!--s
+  Fontawesome
+
+  je problém na iOS 9.x - který neumí zobrazovat verze 5
+  tak jsem stáhnul ikony a rovnou je zobrazuji
+  při hledání nové je potřeba napsat pak správně URL
+-->
+
+  <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script> -->
+  <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/regular.js" integrity="sha384-t7yHmUlwFrLxHXNLstawVRBMeSLcXTbQ5hsd0ifzwGtN7ZF7RZ8ppM7Ldinuoiif" crossorigin="anonymous"></script> -->
+  <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script> -->
+  <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script> -->
+  <!-- <script src="js/fontawesome-all.js"></script> -->
+  <script defer src="js/fontawesome-all.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous"> -->
+  <!-- <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css"> -->
+
+
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+  <!-- jQuery JavaScript -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- zatím nepoužívám -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
+
+  <!-- Bootstrap JavaScript -->
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- axios Js -->
+  <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+  <script src="js/axios.min.js"></script>
+
+  <!-- muj vlastní CSS -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!-- Content content content -->
+
+
+<!-- audio testovani -->
+<!-- https://www.zapsplat.com/sound-effect-categories/ -->
+<!-- ve slozce audio jsou 3 soubory
+// alarm.mp3 - ale dlouhé
+// beep.mp3 - fajn
+// voice.mp3 -  fajn -->
+<audio id="audioAlarm" controls>
+  <!-- <source src="audio/voice.mp3" type="audio/mpeg"> -->
+  <!-- <source src="audio/beep.mp3" type="audio/mpeg"> -->
+  <source src="audio/alarm.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+
+
+
+
+<!-- <i class="fas fa-exclamation-triangle text-danger"></i>
+<i class="fas fa-exclamation-triangle"></i> -->
+
+  <!-- HLAVNÍ STRÁNKA -->
+  <section id="lane1" class="lane1 container">
+    <div id="boxScreen" class="boxScreen row">
+
+      <!-- sem se vkládá obsah -->
+
+    </div>
+
+  </section>
+  <!-- HLAVNÍ STRÁNKA KONEC -->
+
+
+
+  <!-- patička -->
+  <footer id="FOOTER" class="fixed-bottom">
+    <div class="container ">
+      <div class="row ">
+
+
+        <nav id="bottomMenu" class="navbar fixed-bottom navbar-light bg-light btn-center-text">
+
+          <!-- místo pro MENU -->
+        </nav>
+
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- patička konec -->
+
+
+  <!-- Content content content -->
+
+
+  <!-- muj vlastní skript -->
+  <script src="js/custom.js"></script>
+
+</body>
+
+
+</html>
